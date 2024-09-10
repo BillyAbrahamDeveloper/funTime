@@ -218,11 +218,36 @@
 // console.log(filterAllTrue(data));
 
 //** */ ================================================================================
-//** */ 18.Filter even numbers:
+//** */ 18.Filter unique values in an array:
+// const numbers = [1, 2, 2, 3, 3, 4];
+
+// const isUniqueNumbers = (nums) => {
+//   return nums.filter((num, i) => nums.indexOf(num) === i);
+// };
+
+// console.log(isUniqueNumbers(numbers));
+
 //** */ ================================================================================
-//** */ 19.Filter even numbers:
-//** */ ================================================================================
-//** */ 20.Filter even numbers:
+//** */ 19.Filter based on multiple arrays:
+// const arr1 = [1, 2, 3, 4];
+// const arr2 = [2, 4];
+
+// const filterTwoArray = (oneArray, twoArray) => {
+//   const filteredArray = oneArray.filter((num) => !twoArray.includes(num));
+//   return filteredArray;
+// };
+// console.log(filterTwoArray(arr1, arr2));
+
+// //** */ ================================================================================
+// //** */ 20.Filter numbers by their digit count:
+// const numbers = [5, 123, 67, 8900];
+
+// const twoDigitReturn = (nums) => {
+//   return nums.filter((num) => num >= 100);
+// };
+
+// console.log(twoDigitReturn(numbers));
+
 //** */ ================================================================================
 //** */ 21.Filter even numbers:
 //** */ ================================================================================
