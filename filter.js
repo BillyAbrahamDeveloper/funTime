@@ -126,19 +126,97 @@
 // console.log(primeNumbers(numbers));
 
 //** */ ================================================================================
-//** */ 11.Filter even numbers:
+//** */ 11.Filter users with completed tasks:
+
+// const users = [
+//   { name: 'Alice', tasks: ['task1', 'task2'], completed: true },
+//   { name: 'Bob', tasks: ['task1'], completed: false },
+// ];
+
+// const filterCompletedTasks = (completed) => {
+//   return completed.filter((com) => com.completed === true);
+// };
+
+// console.log(filterCompletedTasks(users));
+
 //** */ ================================================================================
-//** */ 12.Filter even numbers:
+//** */ 12.Filter users with at least 3 tasks:
+// const users = [
+//   { name: 'Alice', tasks: ['task1', 'task2', 'task3'] },
+//   { name: 'Bob', tasks: ['task1'] },
+// ];
+
+// const filterThreeTaskers = (tasks) => {
+//   return tasks.filter((task) => task.tasks.length === 3);
+// };
+
+// console.log(filterThreeTaskers(users));
+
 //** */ ================================================================================
-//** */ 13.Filter even numbers:
+//** */ 13.Filter products in stock:
+// const products = [
+//   { name: 'Laptop', stock: '3 ' },
+//   { name: 'Phone', stock: 0 },
+// ];
+// const filterProductsInStock = (stocks) => {
+//   return stocks.filter((s) => s.stock !== 0);
+// };
+
+// console.log(filterProductsInStock(products));
+
 //** */ ================================================================================
-//** */ 14.Filter even numbers:
+//** */ 14.Filter objects with a specific property value:
+// const items = [
+//   { name: 'apple', category: 'fruit' },
+//   { name: 'carrot', category: 'vegetable' },
+// ];
+
+// const filterItemsByValue = (value) => {
+//   return value.filter((v) => v.category === 'fruit');
+// };
+
+// console.log(filterItemsByValue(items));
+
 //** */ ================================================================================
-//** */ 15.Filter even numbers:
+//** */ 15.Filter nested array objects based on property values:
+
+// const users = [
+//   { name: 'Alice', tasks: ['do laundry', 'buy groceries'] },
+//   { name: 'Bob', tasks: ['clean room'] },
+//   { name: 'Charlie', tasks: ['buy groceries', 'do laundry'] },
+// ];
+
+// const filterBuyGroceries = (task) => {
+//   return task.filter((t) => t.tasks.includes('buy groceries'));
+// };
+
+// console.log(filterBuyGroceries(users));
 //** */ ================================================================================
-//** */ 16.Filter even numbers:
+//** */ 16.Filter objects with multiple conditions:
+// const products = [
+//   { name: 'Laptop', stock: 3, price: 150 },
+//   { name: 'Phone', stock: 2, price: 90 },
+// ];
+
+// const filterMultiCondition = (finder) => {
+//   return finder.filter((f) => f.stock > 0 && f.price < 100);
+// };
+
+// console.log(filterMultiCondition(products));
+
 //** */ ================================================================================
-//** */ 17.Filter even numbers:
+//** */ 17.Filter objects with all values as true:----------------------------------------------------------------------------------------------------------------------
+// const data = [
+//   { prop1: true, prop2: true, prop3: true },
+//   { prop1: true, prop2: false, prop3: true },
+// ];
+
+// const filterAllTrue = (props) => {
+//   return props.filter((prop) => Object.values(prop).every((value) => value));
+// };
+
+// console.log(filterAllTrue(data));
+
 //** */ ================================================================================
 //** */ 18.Filter even numbers:
 //** */ ================================================================================

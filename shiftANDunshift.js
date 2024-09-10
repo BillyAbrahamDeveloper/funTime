@@ -87,12 +87,3 @@
 // ----------------------------------------------------------------------------------------
 
 //  ** 4. Implementing a Queue
-
-const returnMe = () => {
-  function sdhas() {
-    return 'hello World';
-  }
-  return sdhas;
-};
-
-console.log(returnMe());
