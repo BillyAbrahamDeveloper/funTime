@@ -21,8 +21,7 @@
 // console.log(productArray(numbers));
 
 //** */ ================================================================================
-//** */ 3. Sum of an Array:
-// const number = [1, 4, 6, 2, 9];
+//** */ 3. Find Maximum Number:
 // // Output: 9
 
 // const maxNumber = (nums) => {
@@ -30,14 +29,53 @@
 // };
 // console.log(maxNumber(number));
 
-//** */ ================================================================================
-//** */ 4. Sum of an Array:
+// OR
 
 //** */ ================================================================================
-//** */ 5. Sum of an Array:
+//** */ 4. Find Minimum Number:
+
+// const numbers = [2, 4, 6, 1, 9];
+// // Output: 1
+
+// const minNumber = (nums) => {
+//   return nums.reduce((acc, curr) => Math.min(acc, curr));
+// };
+
+// console.log(minNumber(numbers));
 
 //** */ ================================================================================
-//** */ 6. Sum of an Array:
+//** */ 5. Count Occurrences of a Value:
+
+// const items = ['apple', 'banana', 'apple', 'orange'];
+// const value = 'apple';
+// // Output: 2
+
+// const countOccurrences = (arr, value) => {
+//   return arr.reduce((a, b) => (b === value ? a + 1 : a));
+// };
+
+// console.log(countOccurrences(items, value));
+
+//** */ ================================================================================
+//** */ 6. Count Even and Odd Numbers:
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+// // Output: { even: 3, odd: 3 }
+
+// const countEvenOddNumber = (nums) => {
+//   return nums.reduce(
+//     (acc, curr) => {
+//       curr % 2 == 0 ? acc.even++ : acc.odd++;
+//       return acc;
+//     },
+//     {
+//       even: 0,
+//       odd: 0,
+//     }
+//   );
+// };
+
+// console.log(countEvenOddNumber(numbers));
 
 //** */ ================================================================================
 //** */ 7. Sum of an Array:
